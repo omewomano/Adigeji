@@ -186,13 +186,73 @@
 				    	
 				  </div>
 				  </div>
+				  <!-- form begins-->
 				  <div class="right floated left aligned five wide column">
 				    <div class="ui segment">
-				     column for form
+				     <form id="gform" method="POST" class="pure-form pure-form-stacked"
+  action="https://script.google.com/macros/s/AKfycbxssvLmHK7H0AXx1ZomDJueuYsrQLrnrIKRabrLzBJ8djjzGKEN/exec">
+    <!-- change the form action to your script url -->
+
+<form id="gform" method="POST" class="pure-form pure-form-stacked"
+  action="https://script.google.com/macros/s/AKfycbxssvLmHK7H0AXx1ZomDJueuYsrQLrnrIKRabrLzBJ8djjzGKEN/exec">
+    <!-- change the form action to your script url -->
+<div class="ui form field">
+    
+      <label for="name">Name: </label>
+      <input id="name" name="name" placeholder="your Name" /><br>
+    
+
+   
+      <label for="Address">Address</label>
+      <textarea id="message" name="Address" rows="10"
+      placeholder="give us your address....."></textarea>
+    
+
+    
+      <label for="Phone"><em>Your</em> Phone Number:</label>
+      <input id="Phone" name="Phone" type="phone" value=""
+      required placeholder="+234.........."/><br>
+    
+
+
+      <label for="email"><em>Your</em> Email Address:</label>
+      <input id="email" name="email" type="email" value=""
+      required placeholder="your.name@email.com"/>
+      <span id="email-invalid" style="visibility:hidden">
+        Must be a valid email address</span><br>
+   
+
+
+    
+      <label for="Suppliment">Suppliment</label>
+      <textarea id="suppliment" name="Address" rows="5"
+      placeholder="state the required supliment(s) and quntity(ies)"></textarea>
+      <br>
+  
+
+    <button class="">
+      <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
+      </div>
+
+  </form>
+
+
+  <!-- Customise the Thankyou Message People See when they submit the form: -->
+  <div style="display:none;" id="thankyou_message">
+    <h2><em>Thanks</em> for contacting us!
+      We will get back to you soon!</h2>
+  </div>
+
+  <!-- Submit the Form to Google Using "AJAX" -->
+  <script data-cfasync="false" type="text/javascript"
+  src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+  <!-- <script data-cfasync="false" type="text/javascript"
+  src="/form-submission-handler.js"></script> -->
+<!-- END -->
 				    </div>
 				  </div>
 				  </div>
-		    
+		    <!-- form ends -->
 		  </div>
 		  <div class="fifteen wide column">
 				    	<div class="ui segment">
