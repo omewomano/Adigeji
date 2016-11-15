@@ -1,3 +1,12 @@
 
 .justifyd{ text-align: justify; }
 .centre{text-align: center;}
+.spec{color: #00b5ad}
+.pad{margin-top: 11%}
+table{width: 100%;}
+
+td{
+	border-spacing: 5em;
+	padding: 1%
+}
+.choco{background-color:#d53;}
