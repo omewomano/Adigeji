@@ -12,3 +12,5 @@ td{
 .choco{background-color:#d53;}
 .rhed{color: #d53}
 a:link {color: slategray;}
+body{background-color: #eee;}
+.shadowed{box-shadow:  0 0 2em #333; }
